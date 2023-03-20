@@ -2,7 +2,8 @@ from matplotlib import figure
 import pathlib
 import numpy as np
 from matplotlib.patches import Ellipse
-
+import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/opt/homebrew/Cellar/ffmpeg/5.1.2_6/bin/ffmpeg"
 from baselines import logger
 from moviepy import editor as mpy
 
