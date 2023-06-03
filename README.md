@@ -2,16 +2,17 @@
 
 
 ## Overview
-This is the official implementation of **Controllability-aware Skill Discovery** (**CSD**).
+This is the official implementation of [**Controllability-aware Skill Discovery** (**CSD**)](https://arxiv.org/abs/2302.05103) on manipulation environments (Fetch and Kitchen).
 The codebase is based on the implementation of [MUSIC](https://github.com/ruizhaogit/music).
+We refer to http://github.com/seohongpark/CSD-locomotion for the implementation of CSD on locomotion environments.
 
 Please visit [our project page](https://seohong.me/projects/csd/) for videos.
 
 ## Installation
 
 ```
-conda create --name csd python=3.8
-conda activate csd
+conda create --name csd-manipulation python=3.8
+conda activate csd-manipulation
 pip install -r requirements.txt
 ```
 
